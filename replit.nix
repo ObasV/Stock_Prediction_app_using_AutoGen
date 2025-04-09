@@ -1,5 +1,7 @@
 {pkgs}: {
   deps = [
+    pkgs.bash
+    pkgs.sqlite
     pkgs.glibcLocales
     pkgs.cacert
     pkgs.rustc
